@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"HELLO WORLD"<<endl;
+	return 0;
+}
+
+/*
+input output stream
+endline
+cin console input >>
+cout console output <<
+keyword = int,float,char
+identifier= std ,cin,cout
+literals= ""
+punchuation,seperatot= (),{},;
+whitespace =/n,/t
+operators= +,*,&&,%,<<
+ */
