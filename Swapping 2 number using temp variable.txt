@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,temp;
+    
+    cout << "Enter a number in A"<<endl;
+    cin>>a;
+    
+    cout << "Entera number in B"<<endl;
+    cin>>b;
+    {
+        temp=a;
+        a=b;
+        b=temp;
+    cout<<"Swapped successfully\n"<<endl;
+    cout<<"A\t"<<a<<endl;
+    cout<<"B\t"<<b<<endl;
+    
+    }
+    return 0;
+}
