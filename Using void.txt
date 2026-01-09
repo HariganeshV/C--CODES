@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+	void modifyValue(int &x){
+		x=20;
+	}
+	int main(){
+		int num = 10;
+		modifyValue(num);
+		cout<<"Value of num after function call:  "<<num<<endl;
+	
+	return 0;
+
+}
